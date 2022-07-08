@@ -1,0 +1,96 @@
+.container__cards {
+    display: flex;
+    background-color: var(--cinza-fundo);
+    flex-direction: column;
+    font-family: var(--fonte-principal);
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.titulo-card {
+    font-size: 24px;
+    color: var(--azul-escuro);
+    margin-top: 2em;
+    margin-left: 1em;
+
+}
+
+.card_items {
+   
+    display: flex;
+    margin: 28px 24px;
+    height: 277px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: var(--azul-card);
+    flex-direction: column;
+        
+}
+
+.imagens {
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+}
+
+.pilares {
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    margin: 1em 0 0 1em;
+}
+
+.pilares_items {
+    color: var(--branco);
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 24px,
+}
+
+
+.botao {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.botao_ancora {
+    border-radius: 5px 5px 5px 5px;
+    background-color: var(--branco);
+    color: var(--azul-card);
+    padding: 0.3em 5.5em;
+    margin-top: 5%;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .container__cards{
+        padding: 2em;
+    }
+  
+
+    .cards{
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .botao_ancora {
+        border-radius: 5px 5px 5px 5px;
+        background-color: var(--branco);
+        color: var(--azul-card);
+        padding: 0.3em 4.5em;
+        margin-top: 5%;
+    }
+
+    .card_items {
+        display: flex;
+        margin: 28px 24px;
+        height: 254px;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 2em;
+    }
+
+}

@@ -1,0 +1,29 @@
+@import url(Style/header.css);
+@import url(Style/banner.css);
+@import url(Style/sobre.css);
+@import url(Style/cards.css);
+@import url(Style/tabela.css);
+@import url(Style/banner-footer.css);
+@import url(Style/footer.css);
+
+
+:root {
+    --branco: #FFFFFF;
+    --cinza-fundo: #F2F2F2;
+    --preto: #070E27;
+    --cinza-menu: #C4C4C4;
+    --azul-claro: #5ACFFB;
+    --azul-escuro: #02466A;
+    --azul-texto: #B8C9EB;
+    --cinza-texto: #9B9B9B;
+    --azul-card: #6785C1;
+    --fonte-principal: 'Inter', sans-serif, normal;
+    --sombra: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    --sombra-tabela: 2px 4px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+body {
+    background: var(--branco);
+    font-family: var(--fonte-principal);
+    color: var(--azul-escuro);
+}

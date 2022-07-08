@@ -1,0 +1,28 @@
+.footer-banner {
+    background-image: url(../img/background-footer.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.footer-texto {
+    color: var(--azul-texto);
+    font-size: 20px;
+    padding: 2em;
+}
+
+@media screen and (min-width: 1024px){
+    .footer-banner{
+        background-image: url(../img/background-footer1.png);
+    }
+
+    .footer-texto {
+        display: flex;
+        color: var(--azul-texto);
+        font-size: 20px;
+        justify-content: center;
+    }
+
+    .footer-texto h2{
+        padding: 0 .3em;
+    }
+}

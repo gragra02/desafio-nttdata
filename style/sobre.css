@@ -1,0 +1,41 @@
+.sobre-nos {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte-principal);
+    padding: 3em 2.5em;
+}
+.imagem-sobre{
+    display: none;
+}
+
+.titulo-texto {
+    font-size: 24px;
+    color: var(--azul-escuro);
+    padding-bottom: 1em;
+
+}
+
+.texto {
+    font-family: var(--fonte-principal);
+    color: var(--cinza-texto);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    padding-bottom: .7em
+}
+
+
+@media screen and (min-width: 1024px) {
+    .sobre-nos {
+        display: flex;
+        flex-direction: row;
+        margin: 0 1em;
+    }
+
+
+    .imagem-sobre{
+        display: flex;
+        padding: 0 1em;
+        width: 400px;
+    }
+}
