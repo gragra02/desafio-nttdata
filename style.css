@@ -1,10 +1,10 @@
 @import url(../style/header.css);
-@import url(Style/banner.css);
-@import url(Style/sobre.css);
-@import url(Style/cards.css);
-@import url(Style/tabela.css);
-@import url(Style/banner-footer.css);
-@import url(Style/footer.css);
+@import url(../style/banner.css);
+@import url(../style/sobre.css);
+@import url(../style/cards.css);
+@import url(../style/tabela.css);
+@import url(../style/banner-footer.css);
+@import url(../style/footer.css);
 
 
 :root {
